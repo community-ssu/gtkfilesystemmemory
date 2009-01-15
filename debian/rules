@@ -38,7 +38,13 @@ config.status: configure
 	# Add here commands to configure the package.
 	CFLAGS="$(CFLAGS)" ./configure --host=$(DEB_HOST_GNU_TYPE) --build=$(DEB_BUILD_GNU_TYPE) --prefix=/usr --mandir=\$${prefix}/share/man --infodir=\$${prefix}/share/info --with-doc-dir=\$${prefix}/share/doc --disable-dependency-tracking --disable-gtk-doc
 
+configure: configure-stamp
 
+configure-stamp:
+	dh_testdir	
+	./autogen.sh
+	touch configure-stamp
+				
 build: build-stamp
 build-stamp:  config.status
 	dh_testdir

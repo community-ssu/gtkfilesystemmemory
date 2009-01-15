@@ -1,3 +1,9 @@
+2009-01-15  Richard Sun  <richard.sun@nokia.com>
+
+	Release 0.18
+
+	* debian/rules: fix building failure issue
+
 2007-08-06  Marius Vollmer  <marius.vollmer@nokia.com>
 
 	Released 0.17
