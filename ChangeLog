@@ -71,7 +71,7 @@
 
 2006-01-03  Luc Pionchon  <luc.pionchon@nokia.com>
 
-	N#21990 Unable move bookmarks with ä or ö
+	N#21990 Unable move bookmarks with Ã¤ and Ã¶
 	
 	* gtkfilesystemmemory.c (g_unescape_uri_string): Be less strict on
 	what ASCII characters to accept escaped, since g_filename_to_uri()

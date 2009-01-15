@@ -53,7 +53,7 @@ gtkfilesystemmemory (0.11-1) unstable; urgency=low
 
 gtkfilesystemmemory (0.10.1-1) unstable; urgency=low
 
-  * N#21990 Unable move bookmarks with ä or ö
+  * N#21990 Unable move bookmarks with Ã¤ and Ã¶
 
  -- Luc Pionchon <luc.pionchon@nokia.com>  Tue,  3 Jan 2006 23:42:53 +0200
 
