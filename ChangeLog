@@ -1,5 +1,14 @@
 2009-06-05  Claudio Saavedra  <csaavedra@igalia.com>
 
+	Release 0.19
+
+	* configure.ac: Bump version
+	* debian/changelog: updates
+	* debian/control: add dependency on hildonfm2 and bump GTK+
+	dependency.
+
+2009-06-05  Claudio Saavedra  <csaavedra@igalia.com>
+
 	* configure.ac: Depend on hildon-fm-2.
 	* gtkfilesystemmemory/gtkfilesystemmemory.c:
 	* gtkfilesystemmemory/gtkfilesystemmemoryprivate.h:

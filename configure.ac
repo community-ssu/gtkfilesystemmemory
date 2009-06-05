@@ -1,5 +1,5 @@
 AC_INIT(Makefile.am)
-AM_INIT_AUTOMAKE(gtkfilesystemmemory, 0.18)
+AM_INIT_AUTOMAKE(gtkfilesystemmemory, 0.19)
 AC_CONFIG_HEADER(config.h)
 
 AC_CANONICAL_HOST
@@ -16,7 +16,9 @@ CFLAGS="$CFLAGS -Wall -Werror -Wmissing-prototypes -Wmissing-declarations"
 
 GTK_VERSION=2.10.0
 
-PKG_CHECK_MODULES(GTK, gtk+-2.0 >= $GTK_VERSION)
+PKG_CHECK_MODULES(GTK, gtk+-2.0 >= $GTK_VERSION \
+                       hildon-fm-2)
+
 GTK_BINARY_VERSION=`$PKG_CONFIG --variable=gtk_binary_version gtk+-2.0`
 AC_SUBST(GTK_LIBS)
 AC_SUBST(GTK_CFLAGS)
