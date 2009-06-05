@@ -24,7 +24,7 @@
 
 #include <glib-object.h>
 #define GTK_FILE_SYSTEM_ENABLE_UNSUPPORTED
-#include <gtk/gtkfilesystem.h>
+#include <hildon-fm-2/hildon/gtkfilesystem/gtkfilesystem.h>
 #undef GTK_FILE_SYSTEM_ENABLE_UNSUPPORTED
 
 G_BEGIN_DECLS

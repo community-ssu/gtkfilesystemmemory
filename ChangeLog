@@ -1,3 +1,13 @@
+2009-06-05  Claudio Saavedra  <csaavedra@igalia.com>
+
+	* configure.ac: Depend on hildon-fm-2.
+	* gtkfilesystemmemory/gtkfilesystemmemory.c:
+	* gtkfilesystemmemory/gtkfilesystemmemoryprivate.h:
+	* gtkfilesystemmemorypublic/gtkfilesystemmemory.h:
+	* gtkfilesystemmemorypublic/gtkfilesystemmemorypublic.c: Get
+	the gtkfilesystem.h header from hildon-fm-2, since GTK+ 2.14 doesn't
+	include it anymore.
+
 2009-01-15  Richard Sun  <richard.sun@nokia.com>
 
 	Release 0.18

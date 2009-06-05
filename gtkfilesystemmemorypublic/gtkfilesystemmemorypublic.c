@@ -31,7 +31,7 @@
 #undef __GNUC__ /* This is needed because compile option -pedantic
                    disables GNU extensions and code don't detect this */
 
-#include <gtk/gtkfilesystem.h>
+#include <hildon-fm-2/hildon/gtkfilesystem/gtkfilesystem.h>
 
 #include "../gtkfilesystemmemory/gtkfilesystemmemoryprivate.h"
 #include "gtkfilesystemmemory.h"

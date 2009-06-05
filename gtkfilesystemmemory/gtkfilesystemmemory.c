@@ -31,7 +31,7 @@
 
 #define GTK_FILE_SYSTEM_ENABLE_UNSUPPORTED
 
-#include <gtk/gtkfilesystem.h>
+#include <hildon-fm-2/hildon/gtkfilesystem/gtkfilesystem.h>
 
 #include "gtkfilesystemmemoryprivate.h"
 #include "../gtkfilesystemmemorypublic/gtkfilesystemmemory.h"

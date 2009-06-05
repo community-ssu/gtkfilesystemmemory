@@ -30,12 +30,10 @@
 G_BEGIN_DECLS
 
 
-#include <gtk/gtktreestore.h>
-
 #define GTK_FILE_SYSTEM_ENABLE_UNSUPPORTED
 #undef __GNUC__
 
-#include <gtk/gtkfilesystem.h>
+#include <hildon-fm-2/hildon/gtkfilesystem/gtkfilesystem.h>
 
 #define GTK_TYPE_FILE_SYSTEM_MEMORY (gtk_file_system_memory_get_type ())
 #define GTK_FILE_SYSTEM_MEMORY(obj) (G_TYPE_CHECK_INSTANCE_CAST ((obj), GTK_TYPE_FILE_SYSTEM_MEMORY, GtkFileSystemMemory))
