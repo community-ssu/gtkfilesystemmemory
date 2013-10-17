@@ -1,3 +1,9 @@
+gtkfilesystemmemory (0.20) unstable; urgency=low
+
+  * Move development files to osso-memory-backend-dev package
+
+ -- Pali Rohár <pali.rohar@gmail.com>  Thu, 17 Oct 2013 19:07:31 +0200
+
 gtkfilesystemmemory (0.19+0m5) unstable; urgency=low
 
   * This entry has been added by BIFH queue processor

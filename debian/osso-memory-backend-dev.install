@@ -1,0 +1,4 @@
+usr/include/gtkfilesystemmemory
+usr/lib/pkgconfig/gtkfilesystemmemory.pc
+usr/lib/pkgconfig/gtkfilesystemmemorypublic.pc
+usr/lib/libgtkfilesystemmemorypublic.so

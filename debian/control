@@ -10,3 +10,9 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Memory based backend for GTK+ file selector
+
+Package: osso-memory-backend-dev
+Section: libs
+Architecture: any
+Depends: osso-memory-backend (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Description: Memory based backend for GTK+ file selector (development files)
