@@ -1,3 +1,9 @@
+gtkfilesystemmemory (0.20+thumb0) unstable; urgency=low
+
+  * Thumb2 compile
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Mon, 30 Dec 2013 09:23:05 +0200
+
 gtkfilesystemmemory (0.20) unstable; urgency=low
 
   * Move development files to osso-memory-backend-dev package

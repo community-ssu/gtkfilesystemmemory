@@ -8,7 +8,7 @@ Standards-Version: 3.6.0
 Package: osso-memory-backend
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, kernel-feature-errata-430973-workaround[armel]
 Description: Memory based backend for GTK+ file selector
 
 Package: osso-memory-backend-dev
